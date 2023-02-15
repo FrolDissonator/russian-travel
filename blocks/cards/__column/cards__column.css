@@ -1,0 +1,7 @@
+.cards__column {
+  margin-right: 40px;
+}
+
+.cards__column:nth-of-type(2n) {
+  margin-right: 0;
+}

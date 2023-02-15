@@ -1,0 +1,8 @@
+.cards__place {
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.cards__place:last-child {
+  margin-bottom: 0;
+}
