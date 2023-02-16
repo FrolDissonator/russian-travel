@@ -1,0 +1,28 @@
+.place {
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: 460px auto;
+  grid-gap: 48px 40px;
+  outline: 1px solid red;
+}
+
+.cards__place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns: 440px auto;
+    grid-column-gap: 32px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px auto;
+    grid-column-gap: 28px;
+    max-width: 720px;
+  }
+}
+
