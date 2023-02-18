@@ -6,7 +6,7 @@
   outline: 1px solid red;
 }
 
-.cards__place:last-child {
+.place:last-child {
   margin-bottom: 0;
 }
 
@@ -23,6 +23,15 @@
     grid-template-columns: 340px auto;
     grid-column-gap: 28px;
     max-width: 720px;
+    margin-bottom: 73px;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 320px;
+    grid-gap: 32px;
+    max-width: 320px;
+    margin-bottom: 50px;
+  }
+}
