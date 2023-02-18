@@ -1,6 +1,5 @@
 .place__website {
   align-self: self-end;
-  outline: 1px solid red;
 }
 
 @media screen and (max-width: 767px) {

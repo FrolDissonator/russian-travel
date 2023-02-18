@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: 460px auto;
   grid-gap: 48px 40px;
-  outline: 1px solid red;
 }
 
 .place:last-child {
